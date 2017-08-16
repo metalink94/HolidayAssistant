@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text" format="string"/>
+    <attr name="textColor" format="color"/>
+
+    <declare-styleable name="TextViewFonted">
+        <attr name="customFont" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="SubheaderView">
+        <attr name="text"/>
+        <attr name="imageBackground" format="reference"/>
+        <attr name="image" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="Kit">
+        <attr name="kitStyle" format="reference"/>
+        <attr name="kitButtonStyle" format="reference"/>
+        <attr name="kitTextFieldBigStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="KitButton">
+        <attr name="kit_bttnType" format="enum">
+            <enum name="normal" value="0"/>
+            <enum name="progress" value="1"/>
+        </attr>
+        <attr name="kit_typeface" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="KitTextFieldView">
+        <attr name="hint" format="string"/>
+        <attr name="text"/>
+        <attr name="inputHint" format="string"/>
+    </declare-styleable>
+</resources>

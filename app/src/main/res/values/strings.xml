@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HolidayAssistant</string>
+    <string name="please_wait">Пожалуйста, подождите...</string>
+    <string name="password">Пароль</string>
+    <string name="mail_login">Почта/Логин</string>
+    <string name="registration">Зарегистрироваться</string>
+</resources>

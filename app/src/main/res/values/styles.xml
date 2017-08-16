@@ -1,0 +1,97 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="KitV2">
+        <item name="kitButtonStyle">@style/KitV2.Button</item>
+    </style>
+
+    <style name="KitV2.Subheader">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/extra_4</item>
+        <item name="customFont">Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="KitV2.Subheader.Secondary">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/primary_1</item>
+        <item name="customFont">Roboto-Regular.ttf</item>
+    </style>
+
+    <style name="KitV2.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="kit_bttnType">normal</item>
+        <item name="kit_typeface">Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="NewKit.Text.Body" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="NewKit.Text.Body.Inverse" parent="@android:style/TextAppearance">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="NewKit.Text.Body.Green" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/rainbow_primary</item>
+    </style>
+
+    <style name="NewKit.Text.Body.Regular">
+        <item name="customFont">Roboto-Regular.ttf</item>
+    </style>
+
+    <style name="NewKit.Text.Body.Bold">
+        <item name="customFont">Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="NewKit.Text.Body.Medium">
+        <item name="customFont">Roboto-Medium.ttf</item>
+    </style>
+
+    <style name="NewKit.Text.Body.Light">
+        <item name="customFont">Roboto-Light.ttf</item>
+    </style>
+
+    <style name="NewKit.Text.Caption" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_primary</item>
+    </style>
+
+    <style name="NewKit.Text.Caption.Bold">
+        <item name="customFont">Roboto-Bold.ttf</item>
+    </style>
+
+    <style name="NewKit.Text.CaptionExtra" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NewKit.Text.Disabled" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">@color/text_disabled</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="NewKit.Text.Title" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">18sp</item>
+        <item name="customFont">Roboto-Medium.ttf</item>
+    </style>
+
+</resources>

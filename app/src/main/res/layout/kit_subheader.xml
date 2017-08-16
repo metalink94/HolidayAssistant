@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/spacing_small"
+              android:paddingLeft="@dimen/spacing_normal"
+              android:paddingTop="@dimen/spacing_very_large"
+    >
+
+    <ru.assistent.holidayassistant.views.elements.TextViewFonted
+        android:id="@+id/title"
+        style="@style/KitV2.Subheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

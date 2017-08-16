@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFF</color>
+
+    <!--
+        Kit version 2 palette
+    -->
+    <color name="primary_1">#de000000</color>
+    <color name="secondary">#66000000</color>
+    <color name="extra_4">#47000000</color>
+    <color name="special">#1e000000</color>
+    <color name="light">#ffffff</color>
+    <color name="rainbow_primary">#38bd4c</color>
+    <color name="rainbow_primary_dark">#09a042</color>
+    <color name="rainbow_secondary">#3193fc</color>
+    <color name="rainbow_extra">#ff4732</color>
+    <color name="rainbow_special">#ffc719</color>
+    <color name="focused">#22be54</color>
+
+
+    <color name="kit_button_text_enabled">#fff</color>
+    <color name="kit_button_text_disabled">#66ffffff</color>
+    <color name="kit_button_text_pressed">#fff</color>
+    <color name="orange">#E1802F</color>
+
+    <color name="text_primary">#de000000</color>
+    <color name="text_disabled">#40000000</color>
+    <color name="transparent">#00ffffff</color>
+</resources>
