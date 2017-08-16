@@ -7,6 +7,14 @@
                 android:background="@color/white"
     >
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:src="@mipmap/ic_launcher_round"
+        />
+
     <ru.assistent.holidayassistant.views.KitTextFieldView
         android:id="@+id/login"
         android:layout_width="match_parent"

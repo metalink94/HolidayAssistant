@@ -1,4 +1,4 @@
-package ru.assistent.holidayassistant.screens;
+package ru.assistent.holidayassistant.screens.login;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
