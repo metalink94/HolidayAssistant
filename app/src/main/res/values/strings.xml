@@ -4,4 +4,5 @@
     <string name="password">Пароль</string>
     <string name="mail_login">Почта/Логин</string>
     <string name="registration">Зарегистрироваться</string>
+    <string name="need_login">Необходимо указать логин</string>
 </resources>

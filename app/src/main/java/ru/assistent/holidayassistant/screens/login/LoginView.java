@@ -7,4 +7,7 @@ import ru.assistent.holidayassistant.utils.IView;
  */
 
 interface LoginView extends IView {
+    void showToastMessage(int message);
+
+    void showDots();
 }

@@ -2,6 +2,7 @@ package ru.assistent.holidayassistant.utils;
 
 
 import android.app.ProgressDialog;
+import android.support.annotation.StringRes;
 import android.widget.Toast;
 
 import ru.assistent.holidayassistant.R;
@@ -37,6 +38,10 @@ public class BaseActivity extends AbstractBaseActivity {
     }
 
     protected void showToast(String msg) {
-        Toast.makeText(this, msg, Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
+    }
+
+    protected void showToast(@StringRes int msg) {
+        Toast.makeText(this, msg, Toast.LENGTH_LONG).show();
     }
 }
