@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
-                android:orientation="vertical"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:background="@color/white"
+                android:orientation="vertical"
     >
 
     <ImageView
@@ -25,9 +25,9 @@
 
     <ru.assistent.holidayassistant.views.KitTextFieldView
         android:id="@+id/password"
-        android:layout_below="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/login"
         app:hint="@string/password"
         />
 
@@ -35,10 +35,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/password"
-        android:padding="@dimen/spacing_normal"
         android:gravity="center"
-        android:textColor="@color/colorPrimary"
+        android:padding="@dimen/spacing_normal"
         android:text="@string/registration"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/regist"
+        />
+
+    <ru.assistent.holidayassistant.views.ProgressButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/regist"
+        app:text="LOGIN"
         />
 
 </RelativeLayout>

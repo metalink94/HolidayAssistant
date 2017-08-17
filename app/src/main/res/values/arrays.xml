@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="dot_colors">
+        <item>#FFFFFF</item>
+        <item>#99FFFFFF</item>
+        <item>#66FFFFFF</item>
+        <item>#33FFFFFF</item>
+    </array>
+
+</resources>
