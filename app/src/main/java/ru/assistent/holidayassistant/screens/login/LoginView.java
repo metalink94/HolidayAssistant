@@ -10,4 +10,6 @@ interface LoginView extends IView {
     void showToastMessage(int message);
 
     void showDots();
+
+    void openRegistrationActivty();
 }

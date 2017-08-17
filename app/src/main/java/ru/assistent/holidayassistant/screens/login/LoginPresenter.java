@@ -24,4 +24,8 @@ public class LoginPresenter extends ViewPresenter<LoginView> {
         }
         getView().showDots();
     }
+
+    public void onRegistrationButtonClick() {
+        getView().openRegistrationActivty();
+    }
 }

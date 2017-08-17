@@ -13,45 +13,44 @@ import android.widget.LinearLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import ru.assistent.holidayassistant.R;
-import ru.assistent.holidayassistant.views.elements.EditTextFonted;
+import ru.assistent.holidayassistant.views.elements.AutoTextCompatFonted;
 
 /**
- * Created by Денис on 16.08.2017.
+ * Created by Денис on 17.08.2017.
  */
 
-public class KitTextFieldView extends LinearLayout {
+public class KitAutoTextField extends LinearLayout {
 
     @BindView(R.id.textinput_layout)
     TextInputLayout mTextInputLayout;
 
     @BindView(R.id.input_field)
-    EditTextFonted mEditTextFonted;
+    AutoTextCompatFonted mAutoTextCompatFonted;
 
-
-    public KitTextFieldView(Context context) {
+    public KitAutoTextField(Context context) {
         super(context);
         init(null);
     }
 
-    public KitTextFieldView(Context context, @Nullable AttributeSet attrs) {
+    public KitAutoTextField(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);
         init(attrs);
     }
 
-    public KitTextFieldView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+    public KitAutoTextField(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init(attrs);
     }
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
-    public KitTextFieldView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public KitAutoTextField(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
         init(attrs);
     }
 
     public void init(AttributeSet attributeSet) {
 
-        inflate(getContext(), R.layout.kit_row_text_field, this);
+        inflate(getContext(), R.layout.kit_row_auto_text_field, this);
         ButterKnife.bind(this);
         if (attributeSet != null) {
             setAttrs(attributeSet);
@@ -68,11 +67,6 @@ public class KitTextFieldView extends LinearLayout {
         setHint(a.getString(R.styleable.KitTextFieldView_hint));
         setInputHint(a.getString(R.styleable.KitTextFieldView_inputHint));
         setText(a.getString(R.styleable.KitTextFieldView_text));
-        setMaxLines(a.getInt(R.styleable.KitTextFieldView_maxLines, 1));
-    }
-
-    public void setMaxLines(int maxLines) {
-        mEditTextFonted.setMaxLines(maxLines);
     }
 
     public void setHint(CharSequence hint) {
@@ -80,31 +74,29 @@ public class KitTextFieldView extends LinearLayout {
     }
 
     public void setInputHint(CharSequence hint) {
-        mEditTextFonted.setHint(hint);
+        mAutoTextCompatFonted.setHint(hint);
     }
 
     public void setInputHint(@StringRes int hint) {
-        mEditTextFonted.setHint(hint);
+        mAutoTextCompatFonted.setHint(hint);
     }
 
     public void setText(CharSequence text) {
-        mEditTextFonted.setText(text);
+        mAutoTextCompatFonted.setText(text);
     }
 
     public void setText(@StringRes int text) {
-        mEditTextFonted.setText(text);
+        mAutoTextCompatFonted.setText(text);
     }
 
     public String getText() {
-        return mEditTextFonted.getText().toString();
+        return mAutoTextCompatFonted.getText().toString();
     }
-
-    public int getMaxLines() { return mEditTextFonted.getMaxLines();}
 
     @Override
     public void setEnabled(boolean enabled) {
         super.setEnabled(enabled);
-        mEditTextFonted.setEnabled(enabled);
+        mAutoTextCompatFonted.setEnabled(enabled);
         mTextInputLayout.setEnabled(enabled);
     }
 }

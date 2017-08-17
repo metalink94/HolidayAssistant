@@ -5,4 +5,7 @@
     <string name="mail_login">Почта/Логин</string>
     <string name="registration">Зарегистрироваться</string>
     <string name="need_login">Необходимо указать логин</string>
+    <string name="need_password">Необходимо указать пароль</string>
+    <string name="error_check_password">Введенные пароли не совпадают</string>
+    <string name="skip">Пропустить</string>
 </resources>
