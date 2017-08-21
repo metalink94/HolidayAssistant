@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <ru.assistent.holidayassistant.views.elements.TextViewFonted
+        android:id="@+id/hint"
+        style="@style/NewKit.Text.Disabled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_normal"
+        tools:text="Some text"
+        />
+
+    <ru.assistent.holidayassistant.views.elements.TextViewFonted
+        android:id="@+id/main_text"
+        style="@style/NewKit.Text.Body"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/spacing_normal"
+        android:layout_marginTop="@dimen/spacing_tiniest"
+        tools:text="Some Big Text"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/spacing_tiny"
+        android:background="@color/special"
+        />
+
+</LinearLayout>

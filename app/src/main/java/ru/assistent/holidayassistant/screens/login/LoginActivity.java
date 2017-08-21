@@ -66,5 +66,6 @@ public class LoginActivity extends BaseActivity implements LoginView {
     @Override
     public void openRegistrationActivty() {
         startActivity(new Intent(this, RegistrationActivity.class));
+        finish();
     }
 }

@@ -51,4 +51,9 @@
     <declare-styleable name="NoScrollViewPager">
         <attr name="scrolleEnable" format="boolean"/>
     </declare-styleable>
+    
+    <declare-styleable name="KitTextRowView">
+        <attr name="hint"/>
+        <attr name="text"/>
+    </declare-styleable>
 </resources>

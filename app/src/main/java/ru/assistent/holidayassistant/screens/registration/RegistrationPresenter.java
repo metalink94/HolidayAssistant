@@ -42,11 +42,7 @@ public class RegistrationPresenter extends ViewPresenter<RegistrationView> {
     }
 
     public void onCheckSecondPage(String name, String surname, String city) {
-       if (name == null || surname == null || city == null ||
-               name.isEmpty() || surname.isEmpty() || city.isEmpty()) {
-           getView().changeButtonText(R.string.skip);
-       } else {
-           mModel.setPersonalInformation(name, surname, city);
-       }
+        mModel.setPersonalInformation(name, surname, city);
+        getView().openProfileScreen();
     }
 }

@@ -16,4 +16,6 @@ interface RegistrationView extends IView {
     void changeButtonText(int text);
 
     void changePage();
+
+    void openProfileScreen();
 }

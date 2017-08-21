@@ -1,5 +1,6 @@
 package ru.assistent.holidayassistant.screens.registration;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.view.PagerAdapter;
@@ -11,6 +12,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import ru.assistent.holidayassistant.R;
+import ru.assistent.holidayassistant.screens.profile.ProfileActivity;
 import ru.assistent.holidayassistant.utils.BaseActivity;
 import ru.assistent.holidayassistant.views.KitAutoTextField;
 import ru.assistent.holidayassistant.views.KitTextFieldView;
@@ -71,6 +73,12 @@ public class RegistrationActivity extends BaseActivity implements RegistrationVi
     @Override
     public void changePage() {
         mPager.setCurrentItem(mPager.getCurrentItem() + 1);
+    }
+
+    @Override
+    public void openProfileScreen() {
+        startActivity(new Intent(this, ProfileActivity.class));
+        finish();
     }
 
     private class RegistrationPagerAdapter extends PagerAdapter {
